@@ -44,3 +44,12 @@ Get IP address by Host Name
 
   $ host <domain name>
 
+Pretty Print Json Data
+
+  $ echo '{"foo": "lorem", "bar": "ipsum"}' | python -mjson.tool
+  
+  {
+    "bar": "ipsum", 
+    "foo": "lorem"
+  }
+
